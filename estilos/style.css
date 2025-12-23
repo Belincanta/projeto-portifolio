@@ -37,6 +37,8 @@ header {
   display: flex; /*criar conteiner flexivel*/
   justify-content: flex-end; /*deixar o item no lado final (direito)*/
   align-content: center;
+  position: sticky; /*para grudar o menu*/
+  top: 0; /*posição para grudar o menu*/
 }
 
 nav#menu ul {
